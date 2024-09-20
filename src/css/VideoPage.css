@@ -1,0 +1,31 @@
+/* videopage.css - Styles pour la page vidéo */
+
+/*Correspond à la page de lecture de la vidéo*/
+.video-container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/*Correspond à la vidéo elle-même*/
+.video-container iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px 8px 0 0;
+}
+
+/*Correspond aux détails de la vidéo*/
+.video-details {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 8px 8px;
+}
+
+/*Correspond au titre de la vidéo*/
+.video-description {
+  margin-top: 10px;
+  color: #555;
+  line-height: 1.5;
+}

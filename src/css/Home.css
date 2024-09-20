@@ -1,0 +1,37 @@
+/* home.css - Styles spécifiques à la page d'accueil */
+
+/*Correspond à la page d'accueil*/
+.video-page {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/*Correspond à la liste des vidéos*/
+.video-block {
+    margin-bottom: 30px;
+}
+
+/*Correspond à une vidéo*/
+.video-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+/*Correspond à l'image de la vidéo*/
+.video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.video-card-body {
+    padding: 15px;
+}
